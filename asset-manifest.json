@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/book-fly/static/css/main.bc0aced4.css",
+    "main.js": "/book-fly/static/js/main.8ee71149.js",
+    "static/js/787.2c849534.chunk.js": "/book-fly/static/js/787.2c849534.chunk.js",
+    "static/media/background-travel-2.jpg": "/book-fly/static/media/background-travel-2.1b3bc05ab3ab53a29ab2.jpg",
+    "index.html": "/book-fly/index.html",
+    "main.bc0aced4.css.map": "/book-fly/static/css/main.bc0aced4.css.map",
+    "main.8ee71149.js.map": "/book-fly/static/js/main.8ee71149.js.map",
+    "787.2c849534.chunk.js.map": "/book-fly/static/js/787.2c849534.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc0aced4.css",
+    "static/js/main.8ee71149.js"
+  ]
+}
