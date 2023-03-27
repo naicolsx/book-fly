@@ -1,18 +1,18 @@
-import React, { useState } from 'react';
-import './Search.css';
+import React, { useState } from "react";
+import "./Search.css";
 
-export const Search = ({ send }) => {
-  const [flight, setFlight] = useState('');
+export const Search = ({ state, send }) => {
+  const [flight, setFlight] = useState("");
 
   const goToPassengers = () => {
-    send('CONTINUE')
-  }
+    send("CONTINUE", { selectedCountry: flight });
+  };
 
   const handleSelectChange = (event) => {
     setFlight(event.target.value);
   };
 
-  const options = ['Mexico', 'Venezuela', 'Colombia'];
+  const options = ['Mexico', 'Venezuela', 'Colombia']; //state.context.countries;
 
   return (
     <div className='Search'>
@@ -24,4 +24,4 @@ export const Search = ({ send }) => {
       <button onClick={goToPassengers} disabled={flight === ''} className='Search-continue button'>Continuar</button>
     </div>
   );
-}; 
+};
